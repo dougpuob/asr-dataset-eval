@@ -1,0 +1,18 @@
+{
+  "run_id": "qwen3-1.7b_chinese_default",
+  "model": {
+    "name": "Qwen3-ASR-1.7B",
+    "type": "qwen3_asr",
+    "id": "Qwen/Qwen3-ASR-1.7B"
+  },
+  "endpoint": {
+    "type": "local",
+    "server": "localhost",
+    "device": "cuda:0"
+  },
+  "params": {
+    "language": "Chinese",
+    "dtype": "bfloat16"
+  },
+  "notes": "sample config for local Qwen3-ASR"
+}

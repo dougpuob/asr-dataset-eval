@@ -1,0 +1,7 @@
+qwen-asr
+openai-whisper
+jiwer
+soundfile
+librosa
+pyyaml
+requests

@@ -1,0 +1,18 @@
+{
+  "run_id": "whisper_large_v3_default",
+  "model": {
+    "name": "whisper-large-v3",
+    "type": "whisper",
+    "id": "large-v3"
+  },
+  "endpoint": {
+    "type": "local",
+    "server": "localhost",
+    "device": "cuda"
+  },
+  "params": {
+    "language": "zh",
+    "task": "transcribe"
+  },
+  "notes": "sample whisper config"
+}
