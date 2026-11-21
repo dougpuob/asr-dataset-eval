@@ -3,10 +3,12 @@ from pathlib import Path
 from datetime import datetime
 from .utils import load_jsonl, save_jsonl, convert_to_wav, compute_cer
 from .models.qwen3_asr import Qwen3ASRModel
+from .models.qwen3_asr_remote import Qwen3ASRRemoteModel
 from .models.whisper import WhisperModel
 
 MODEL_MAP = {
     "qwen3_asr": Qwen3ASRModel,
+    "qwen3_asr_remote": Qwen3ASRRemoteModel,
     "whisper": WhisperModel,
 }
 

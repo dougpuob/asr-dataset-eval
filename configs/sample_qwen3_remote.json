@@ -1,0 +1,18 @@
+{
+  "run_id": "qwen3-asr-remote-msm4max",
+  "model": {
+    "name": "Qwen3-ASR-1.7B",
+    "type": "qwen3_asr_remote",
+    "id": "qwen3-asr"
+  },
+  "endpoint": {
+    "type": "http",
+    "server": "msm4max",
+    "url": "http://msm4max.tail84298.ts.net:8005",
+    "api_key": "none"
+  },
+  "params": {
+    "language": "Chinese"
+  },
+  "notes": "使用 msm4max 上 AirType 的 Qwen3-ASR（port 8005）"
+}
